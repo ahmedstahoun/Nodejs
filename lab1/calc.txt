@@ -1,0 +1,5 @@
+hello 
+The Result Of sum 5,1 is 6
+The Result Of mult 5,1 is 5
+The Result Of div 5,1 is 5
+The Result Of div 5,0 is Infinity
