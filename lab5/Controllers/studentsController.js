@@ -26,7 +26,7 @@ let createOneStudent = async (req, res) => {
 
 let deleteOneStudent = async (req, res) => {
   var ID = req.params.id;
-  var data = await studentsModel.deleteOneStudent({ id: ID });
+  var data = await studentsModel.deleteOne({ id: ID });
   await res.json(data);
 };
 
